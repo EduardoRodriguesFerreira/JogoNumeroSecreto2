@@ -1,6 +1,6 @@
 let listaNumeros = [];
 
-let numLimit = 10
+let numLimit = 100
 
 let btn = document.querySelector('.container__botao');
 
@@ -44,7 +44,7 @@ function gerarNumeroAleatorio(){
 
 exibirTextoNaTela('#titulo', 'Jodo do número Secreto');
 
-exibirTextoNaTela('.texto__paragrafo','Digite um número de 1 a 10');
+exibirTextoNaTela('.texto__paragrafo','Digite um número de 1 a 100');
 
 function verificarChute(){
     let input = document.querySelector('.container__input').value;
